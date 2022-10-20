@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
 *{
     margin: 0;
     padding: 0;
@@ -125,7 +129,7 @@ top: 50px;
 .sec-2-left{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
      text-align: center;
 }
 footer{
@@ -134,20 +138,20 @@ height: 830px;
 left: 0px;
 top: 2812px;
 background: #F2F2F2;
-margin-top: 71px;
+
 }
 .ftr-2{
     display: flex;
     justify-content: space-between;
     margin-left: 216px;
-    margin-right: 212px;
+    margin-right: 230px;
     margin-top: 35px;
 }
-.ftr-2 h3 {
-    margin-bottom: 10px;
+.ftr-2 h4 {
+    margin-bottom: 15px;
 }
 .ftr-2 p {
-margin-bottom: 10px;
+margin-bottom: 11px;
 }
 .ftr-3{
     display: flex;
@@ -168,3 +172,21 @@ margin-bottom: 10px;
 .india{
     margin-top: 20px;
 }
+.sec-2-left-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-3 {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 33px;
+    background-color: rgba(0, 113, 227, 1);
+    color: white
+}
+.sec-2-left-btn p {
+    color:rgba(0, 113, 227, 1) ;
+    font-size : 20px;
+}
+
